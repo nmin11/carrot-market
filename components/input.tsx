@@ -20,7 +20,7 @@ export default function Input({
         {label}
       </label>
       {kind === "text" ? (
-        <div className="rounded-md relative flex  items-center shadow-sm">
+        <div className="rounded-md relative flex items-center shadow-sm">
           <input
             id={name}
             {...rest}
@@ -29,7 +29,7 @@ export default function Input({
         </div>
       ) : null}
       {kind === "price" ? (
-        <div className="rounded-md relative flex  items-center shadow-sm">
+        <div className="rounded-md relative flex items-center shadow-sm">
           <div className="absolute left-0 pointer-events-none pl-3 flex items-center justify-center">
             <span className="text-gray-500 text-sm">$</span>
           </div>
