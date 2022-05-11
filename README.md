@@ -14,5 +14,5 @@
 
 ## 추가로 알아둬야 할 명령어
 
-- `prisma db push` : schema를 planet scale과 연동하기 위한 작업
+- `npx prisma db push` : schema를 planet scale과 연동하기 위한 작업
 - `npx prisma generate` : db에 접속하는 client 생성
