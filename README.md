@@ -16,3 +16,9 @@
 
 - `npx prisma db push` : schema를 planet scale과 연동하기 위한 작업
 - `npx prisma generate` : db에 접속하는 client 생성
+
+<br>
+
+## SWR
+
+- 요청 시에는 캐시로부터 데이터를 로드하며, API를 통해 꾸준히 최신화된 데이터를 받아옴
