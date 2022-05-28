@@ -22,3 +22,5 @@
 ## SWR
 
 - 요청 시에는 캐시로부터 데이터를 로드하며, API를 통해 꾸준히 최신화된 데이터를 받아옴
+- useSWR 의 mutate 함수를 활용하면 Optimistic UI Update 구현 가능
+  - unbound mutate 함수를 활용하면 다른 화면의 데이터도 변경 가눙
