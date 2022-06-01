@@ -9,6 +9,7 @@ import useMutation from "@libs/client/useMutation";
 import { cls } from "@libs/client/utils";
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
+import answers from 'pages/api/posts/[id]/answers';
 
 interface AnswerWithUser extends Answer {
   user: User;
@@ -156,7 +157,7 @@ const CommunityPostDetail: NextPage = () => {
                   {answer.user.name}
                 </span>
                 <span className="text-xs text-gray-500 block ">
-                  생성 날짜
+                  {answer.createdAt.toString().replace('T', ' ').substring(0,19)}
                 </span>
                 <p className="text-gray-700 mt-2">{answer.answer} </p>
               </div>
