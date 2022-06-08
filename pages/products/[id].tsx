@@ -40,7 +40,7 @@ const ItemDetail: NextPage = () => {
         <div className="mb-8">
           <div className="relative  pb-80">
             <Image
-              src={`https://imagedelivery.net/aSbksvJjax-AUC7qVnaC4A/${data?.product.image}/public`}
+              src={`https://imagedelivery.net/qr4FU88HNrBDy4V3b6QbbA/${data?.product.image}/public`}
               className="bg-slate-300 object-cover"
               layout="fill"
               alt='No Image!'
@@ -50,7 +50,7 @@ const ItemDetail: NextPage = () => {
             <Image
               width={48}
               height={48}
-              src={`https://imagedelivery.net/aSbksvJjax-AUC7qVnaC4A/${data?.product?.user?.avatar}/avatar`}
+              src={`https://imagedelivery.net/qr4FU88HNrBDy4V3b6QbbA/${data?.product?.user?.avatar}/avatar`}
               className="w-12 h-12 rounded-full bg-slate-300"
               alt='No Image!'
             />
